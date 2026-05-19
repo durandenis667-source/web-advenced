@@ -35,6 +35,7 @@ const el = {
   sortBy:            $('sort-by'),
   btnSortOrder:      $('btn-sort-order'),
   btnResetFilters:   $('btn-reset-filters'),
+  btnRandom:         $('btn-random'),
   resultsCount:      $('results-count'),
   btnViewCards:      $('btn-view-cards'),
   btnViewTable:      $('btn-view-table'),
@@ -238,6 +239,15 @@ el.btnSortOrder.addEventListener('click', () => {
   applyAll();
 });
 
+const randomChampion = () => {
+  const pool = state.filtered.length ? state.filtered : state.allChampions;
+  if (!pool.length) return;
+  const c = pool[Math.floor(Math.random() * pool.length)];
+  openModal(c.id);
+  showToast(`🎲 ${c.name}!`, 'success');
+};
+
+el.btnRandom.addEventListener('click', randomChampion);
 el.btnResetFilters.addEventListener('click', resetFilters);
 el.btnResetEmpty.addEventListener('click', resetFilters);
 el.btnRetry.addEventListener('click', loadChampions);

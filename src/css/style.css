@@ -1,29 +1,29 @@
 /* LoL Champion Explorer — Stylesheet */
 
 :root {
-  --bg-app:     #030c1a;
-  --bg-surface: #071428;
-  --bg-card:    #0a1628;
-  --bg-hover:   #0f2040;
-  --bg-input:   #050f1f;
+  --bg-app:     #0d0516;
+  --bg-surface: #160924;
+  --bg-card:    #1a0c2a;
+  --bg-hover:   #241540;
+  --bg-input:   #0a0312;
 
-  --text-primary:   #f0e6d3;
-  --text-secondary: #a9b4d2;
-  --text-muted:     #4a5a7a;
+  --text-primary:   #e8d8ff;
+  --text-secondary: #9f7cc4;
+  --text-muted:     #4d3370;
 
-  --accent:      #c89b3c;
-  --accent-hover: #f0d591;
-  --accent-dim:  rgba(200, 155, 60, 0.15);
+  --accent:      #00c8e6;
+  --accent-hover: #40e0f8;
+  --accent-dim:  rgba(0, 200, 230, 0.13);
 
-  --danger:     #c0392b;
-  --danger-dim: rgba(192, 57, 43, 0.15);
+  --danger:     #e05050;
+  --danger-dim: rgba(224, 80, 80, 0.15);
 
-  --border:       #1a3050;
-  --border-light: #0f2038;
+  --border:       #2c1a50;
+  --border-light: #1e0e38;
 
-  --shadow-sm: 0 1px 6px rgba(0,0,0,0.6);
-  --shadow-md: 0 4px 20px rgba(0,0,0,0.7);
-  --shadow-lg: 0 8px 40px rgba(0,0,0,0.85);
+  --shadow-sm: 0 1px 6px rgba(0,0,0,0.7);
+  --shadow-md: 0 4px 20px rgba(0,0,0,0.8);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,0.9);
 
   --radius-sm: 4px;
   --radius:    8px;
@@ -33,29 +33,29 @@
 }
 
 [data-theme="light"] {
-  --bg-app:     #f2ead8;
-  --bg-surface: #fff8ec;
+  --bg-app:     #f0ecff;
+  --bg-surface: #faf7ff;
   --bg-card:    #ffffff;
-  --bg-hover:   #f5edd8;
-  --bg-input:   #fdf6e8;
+  --bg-hover:   #e8e0ff;
+  --bg-input:   #f5f0ff;
 
-  --text-primary:   #1a0e00;
-  --text-secondary: #5c4020;
-  --text-muted:     #a08050;
+  --text-primary:   #1a0833;
+  --text-secondary: #5a3080;
+  --text-muted:     #9070b0;
 
-  --accent:       #8b6914;
-  --accent-hover: #5c4510;
-  --accent-dim:   rgba(139, 105, 20, 0.12);
+  --accent:       #7b2fff;
+  --accent-hover: #5a10e0;
+  --accent-dim:   rgba(123, 47, 255, 0.1);
 
-  --danger:     #a93226;
-  --danger-dim: rgba(169, 50, 38, 0.12);
+  --danger:     #cc3333;
+  --danger-dim: rgba(204, 51, 51, 0.12);
 
-  --border:       #d4b483;
-  --border-light: #e8d9b5;
+  --border:       #c8b0e8;
+  --border-light: #ddd0f0;
 
-  --shadow-sm: 0 1px 4px rgba(0,0,0,0.1);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.15);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.2);
+  --shadow-sm: 0 1px 4px rgba(60,0,100,0.1);
+  --shadow-md: 0 4px 16px rgba(60,0,100,0.15);
+  --shadow-lg: 0 8px 32px rgba(60,0,100,0.2);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -288,11 +288,33 @@ ul { list-style: none; }
 .champion-card.card--visible { opacity: 1; transform: translateY(0); }
 .champion-card:hover { box-shadow: 0 0 0 2px var(--accent), var(--shadow-md); border-color: var(--accent); }
 
+/* rol-gekleurde streep bovenaan de kaart */
+.champion-card[data-role="Fighter"] { border-top: 3px solid #e8935f; }
+.champion-card[data-role="Tank"]    { border-top: 3px solid #7ab8e8; }
+.champion-card[data-role="Mage"]    { border-top: 3px solid #c39bd3; }
+.champion-card[data-role="Assassin"]{ border-top: 3px solid #e87a72; }
+.champion-card[data-role="Support"] { border-top: 3px solid #76d7a0; }
+.champion-card[data-role="Marksman"]{ border-top: 3px solid #f5d76e; }
+
 .card__image-wrapper {
   position: relative;
-  height: 260px;
+  height: 240px;
   overflow: hidden;
   background-color: #000;
+}
+
+.card__hp-badge {
+  position: absolute;
+  top: 8px; right: 8px;
+  background: rgba(0,0,0,0.72);
+  color: #ff8888;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,100,100,0.45);
+  letter-spacing: 0.3px;
+  z-index: 1;
 }
 .card__image {
   width: 100%;

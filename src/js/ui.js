@@ -47,10 +47,12 @@ const createCard = (champion) => {
   const article = document.createElement('article');
   article.className = 'champion-card';
   article.dataset.id = champion.id;
+  article.dataset.role = champion.tags[0] ?? '';
 
   article.innerHTML = `
     <div class="card__image-wrapper">
       <img src="${getLoadingUrl(champion.id)}" alt="${champion.name}" class="card__image" loading="lazy" />
+      <span class="card__hp-badge">${Math.round(champion.stats.hp)} HP</span>
       <div class="card__overlay">
         <div class="card__roles">${roles}</div>
       </div>
