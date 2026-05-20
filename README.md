@@ -140,4 +140,4 @@ lol-explorer/
 - MDN Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 - MDN LocalStorage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 - Vite docs: https://vitejs.dev/
-- Claude (Anthropic) gebruikt voor uitleg van bepaalde concepten en debuggen. Chatlog beschikbaar op aanvraag.
+- Claude (Anthropic) en ChatGPT (openIA) gebruikt voor uitleg van bepaalde concepten en debuggen.
