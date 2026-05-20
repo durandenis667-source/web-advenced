@@ -141,3 +141,15 @@ lol-explorer/
 - MDN LocalStorage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 - Vite docs: https://vitejs.dev/
 - Claude (Anthropic) en ChatGPT (openIA) gebruikt voor uitleg van bepaalde concepten en debuggen.
+
+
+
+
+
+
+ ## AI-chatlog Screenshots
+ 
+<img width="795" height="940" alt="iachatlog 3" src="https://github.com/user-attachments/assets/c8417268-c45d-4189-8ae8-7ba2a2d13435" />
+<img width="601" height="908" alt="chatlog 4" src="https://github.com/user-attachments/assets/471b4f5f-04da-4641-97a7-31c792909775" />
+<img width="1452" height="887" alt="iachatlog 1" src="https://github.com/user-attachments/assets/729c20f7-6ec3-416f-9e43-66199581421c" />
+<img width="1364" height="919" alt="iachatlog 2" src="https://github.com/user-attachments/assets/c22d112a-f31a-471b-99bc-14b9117ef392" />
