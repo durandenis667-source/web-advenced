@@ -64,12 +64,18 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Rajdhani', 'Segoe UI', sans-serif;
   background-color: var(--bg-app);
+  background-image: radial-gradient(ellipse at top, #1a0b2e 0%, var(--bg-app) 65%);
+  background-attachment: fixed;
   color: var(--text-primary);
   line-height: 1.5;
   min-height: 100vh;
   transition: background-color var(--transition), color var(--transition);
+}
+
+[data-theme="light"] body {
+  background-image: radial-gradient(ellipse at top, #e0d4ff 0%, var(--bg-app) 65%);
 }
 
 img { display: block; max-width: 100%; }
@@ -128,14 +134,18 @@ ul { list-style: none; }
   align-items: center;
   justify-content: space-between;
   padding: 0 24px;
-  background-color: var(--bg-surface);
+  background: linear-gradient(135deg, #160924 0%, #1e0535 100%);
   border-bottom: 2px solid var(--accent);
   box-shadow: var(--shadow-sm);
 }
 
+[data-theme="light"] .header {
+  background: linear-gradient(135deg, #e8deff 0%, #f0ecff 100%);
+}
+
 .header__logo { display: flex; align-items: center; gap: 10px; }
 .logo-icon { font-size: 1.5rem; }
-.logo-title { font-size: 1.2rem; font-weight: 700; letter-spacing: 0.5px; }
+.logo-title { font-family: 'Cinzel', serif; font-size: 1.15rem; font-weight: 700; letter-spacing: 1px; }
 .logo-title span { color: var(--accent); }
 .header__actions { display: flex; align-items: center; gap: 8px; }
 
@@ -276,7 +286,7 @@ ul { list-style: none; }
 .champion-card {
   opacity: 0;
   transform: translateY(16px);
-  transition: opacity 0.3s ease, transform 0.3s ease, box-shadow var(--transition), border-color var(--transition);
+  transition: opacity 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease, border-color var(--transition);
   background-color: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -286,7 +296,11 @@ ul { list-style: none; }
   cursor: pointer;
 }
 .champion-card.card--visible { opacity: 1; transform: translateY(0); }
-.champion-card:hover { box-shadow: 0 0 0 2px var(--accent), var(--shadow-md); border-color: var(--accent); }
+.champion-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 0 0 2px var(--accent), 0 12px 30px rgba(0,200,230,0.18);
+  border-color: var(--accent);
+}
 
 /* rol-gekleurde streep bovenaan de kaart */
 .champion-card[data-role="Fighter"] { border-top: 3px solid #e8935f; }
@@ -334,7 +348,7 @@ ul { list-style: none; }
 .card__roles { display: flex; flex-wrap: wrap; gap: 4px; }
 
 .card__body { padding: 12px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
-.card__name { font-size: 1rem; font-weight: 700; color: var(--text-primary); }
+.card__name { font-family: 'Cinzel', serif; font-size: 0.95rem; font-weight: 700; color: var(--text-primary); }
 .card__title { font-size: 0.78rem; color: var(--accent); font-style: italic; }
 .card__stats { margin-top: 6px; display: flex; flex-direction: column; gap: 5px; }
 
