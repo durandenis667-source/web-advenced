@@ -125,7 +125,11 @@ lol-explorer/
 
 ## Screenshots
 
-*(screenshots toevoegen)*
+<img width="1898" height="915" alt="details" src="https://github.com/user-attachments/assets/d81336b0-baae-4f32-b2e0-ba9e04c8c608" />
+<img width="1919" height="922" alt="zoekbalk" src="https://github.com/user-attachments/assets/1d1bf669-8ee1-4121-8cc9-1eabe3c6a14a" />
+<img width="1904" height="922" alt="wit" src="https://github.com/user-attachments/assets/25a60297-02e9-4db2-af7b-56be95c1cc4c" />
+<img width="1892" height="908" alt="pagina" src="https://github.com/user-attachments/assets/fec19f8a-22b1-4c0f-8a5b-a5feb9966591" />
+
 
 ---
 
