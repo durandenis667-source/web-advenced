@@ -5,6 +5,12 @@ Je kan hiermee alle League of Legends champions bekijken, filteren, sorteren en 
 
 ---
 
+## Waarom League of Legends?
+
+Ik speel League of Legends al een paar jaar en kende de champions al goed. Dat maakte het makkelijker om te beslissen wat ik wilde tonen en hoe ik de data wilde structureren. De Riot Data Dragon API is gratis, heeft geen API-sleutel nodig en geeft alle 160+ champions in één call terug — ideaal voor dit project. Ik vond het ook leuker om iets te maken waar ik zelf interesse in heb dan een willekeurige dataset te gebruiken.
+
+---
+
 ## Wat doet de app?
 
 - Alle 160+ champions laden via de officiële Riot Data Dragon API
