@@ -79,7 +79,7 @@ lol-explorer/
 ### DOM manipulatie
 - **Elementen selecteren** — `src/main.js` regel 26 (`const $ = id => document.getElementById(id)`)
 - **Elementen manipuleren** — `src/js/ui.js` regel 42 (innerHTML, classList, hidden)
-- **Events koppelen** — `src/main.js` regel 170+ (alle addEventListener calls)
+- **Events koppelen** — `src/main.js` regel 189+ (alle addEventListener calls)
 
 ### Modern JavaScript
 - **const** — overal gebruikt
@@ -98,7 +98,7 @@ lol-explorer/
 - **JSON** — `src/js/api.js` regel 38 (response.json()), `src/js/storage.js` regel 5 (JSON.parse/stringify)
 
 ### Opslag & validatie
-- **Formuliervalidatie** — `src/main.js` regel 172 (zoekterm moet min. 2 tekens zijn)
+- **Formuliervalidatie** — `src/main.js` regel 192 (zoekterm moet min. 2 tekens zijn)
 - **LocalStorage** — `src/js/storage.js` (get/set/remove); bewaard: favorieten, thema, weergave, API-cache
 
 ### Styling & layout
@@ -140,7 +140,7 @@ lol-explorer/
 - MDN Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 - MDN LocalStorage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 - Vite docs: https://vitejs.dev/
-- Claude (Anthropic) en ChatGPT (openIA) gebruikt voor uitleg van bepaalde concepten en debuggen.
+- Claude (Anthropic) en ChatGPT (OpenAI) gebruikt voor uitleg van bepaalde concepten en debuggen.
 
 
 
