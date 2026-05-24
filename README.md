@@ -142,8 +142,8 @@ lol-explorer/
 - MDN Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 - MDN LocalStorage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 - Vite docs: https://vitejs.dev/
-- Claude (Anthropic) en ChatGPT (OpenAI) gebruikt voor uitleg van bepaalde concepten en debuggen.
-
+- Claude (Anthropic): hulp bij structuur van modules, uitleg IntersectionObserver, debugging LocalStorage cache, feedback op README
+- ChatGPT (OpenAI): uitleg over async/await flow, CSS animaties
 
 
 
