@@ -156,3 +156,9 @@ lol-explorer/
 <img width="601" height="908" alt="chatlog 4" src="https://github.com/user-attachments/assets/471b4f5f-04da-4641-97a7-31c792909775" />
 <img width="1452" height="887" alt="iachatlog 1" src="https://github.com/user-attachments/assets/729c20f7-6ec3-416f-9e43-66199581421c" />
 <img width="1364" height="919" alt="iachatlog 2" src="https://github.com/user-attachments/assets/c22d112a-f31a-471b-99bc-14b9117ef392" />
+<img width="839" height="851" alt="45" src="https://github.com/user-attachments/assets/7ae3f710-1b8e-4251-b0ba-a373c84f9f38" />
+<img width="879" height="800" alt="67" src="https://github.com/user-attachments/assets/16c32caa-a868-453c-8859-ce417515ac1e" />
+<img width="892" height="888" alt="aze" src="https://github.com/user-attachments/assets/5cc90b6c-8da4-4096-9cb0-a1cef70819b4" />
+<img width="859" height="918" alt="12" src="https://github.com/user-attachments/assets/320383c0-010f-40e1-95a0-16f28dd9ac1a" />
+<img width="866" height="854" alt="34" src="https://github.com/user-attachments/assets/a938e787-a801-41ba-8329-0158f001aef3" />
+
