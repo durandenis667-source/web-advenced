@@ -129,6 +129,8 @@ lol-explorer/
 <img width="1919" height="922" alt="zoekbalk" src="https://github.com/user-attachments/assets/1d1bf669-8ee1-4121-8cc9-1eabe3c6a14a" />
 <img width="1904" height="922" alt="wit" src="https://github.com/user-attachments/assets/25a60297-02e9-4db2-af7b-56be95c1cc4c" />
 <img width="1892" height="908" alt="pagina" src="https://github.com/user-attachments/assets/fec19f8a-22b1-4c0f-8a5b-a5feb9966591" />
+<img width="1898" height="915" alt="details" src="https://github.com/user-attachments/assets/614a3021-696d-4a15-8c69-6788a328fd5b" />
+<img width="1919" height="921" alt="favortieten" src="https://github.com/user-attachments/assets/0ae963b7-ec47-487b-a2f0-4084b401433b" />
 
 
 ---
@@ -147,7 +149,8 @@ lol-explorer/
 
 
 
- ## AI-chatlog Screenshots
+
+## AI-chatlog Screenshots
  
 <img width="795" height="940" alt="iachatlog 3" src="https://github.com/user-attachments/assets/c8417268-c45d-4189-8ae8-7ba2a2d13435" />
 <img width="601" height="908" alt="chatlog 4" src="https://github.com/user-attachments/assets/471b4f5f-04da-4641-97a7-31c792909775" />
